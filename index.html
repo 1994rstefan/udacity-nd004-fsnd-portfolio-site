@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Stefan's Portfolio Site</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700">
+    <link rel="stylesheet" href="vendor/normalize.8-0-0.css">
+    <link rel="stylesheet" href="assets/css/layout.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<div id="content-bg">
+    <div class="container">
+        <header class="row row-align-center">
+            <div class="col-6 col-m-2">
+                <a id="logo" href="#" onclick="alert('Demo - No destination for the logo link yet...');return false;">
+                    <img class="img-fluid" src="assets/img/logo.png" width="265" height="128" alt="Stefan's portfolio - Logo">
+                </a>
+            </div>
+            <div class="col-6 col-m-4 col-v-center text-right">
+                <div id="header-title">Stefan Reisinger</div>
+                <div id="header-subtitle">Full Stack Developer</div>
+            </div>
+            <div class="col-6">
+                <div id="header-border"></div>
+                <picture>
+                    <source media="(max-width: 767px)" srcset="assets/img/teaser-mobile.jpg">
+                    <img src="assets/img/teaser.jpg" width="1200" height="286" class="img-fluid" alt="IDE with HTML code">
+                </picture>
+            </div>
+        </header>
+
+        <main>
+            <h1>Featured work</h1>
+            <div class="row">
+                <article class="col-6 col-m-3 col-l-2 featured-item">
+                    <p><img src="content/projects/project-1.jpg" width="1200" height="675" alt="It's about trains :O" class="img-fluid"></p>
+                    <h2>Trainzzz</h2>
+                    <p><a href="https://www.example.com/trainzzz" target="_blank">https://www.example.com/trainzzz</a></p>
+                </article>
+                <article class="col-6 col-m-3 col-l-2 featured-item">
+                    <p><img src="content/projects/project-2.jpg" width="1200" height="675" alt="I like meat" class="img-fluid"></p>
+                    <h2>My meat project</h2>
+                    <p><a href="https://www.example.com/omnomnom" target="_blank">https://www.example.com/omnomnom</a></p>
+                </article>
+                <article class="col-6 col-m-3 col-l-2 featured-item">
+                    <p><img src="content/projects/project-3.jpg" width="1200" height="675" alt="Lovely nature" class="img-fluid"></p>
+                    <h2>Nice nature</h2>
+                    <p><a href="https://www.example.com/natural-see" target="_blank">https://www.example.com/natural-see</a></p>
+                </article>
+            </div>
+        </main>
+    </div>
+</div>
+
+<footer>
+    <div class="container text-center">
+        <a href="#">Facebook</a> | <a href="#">Contact</a> | <a href="#">Imprint</a>
+    </div>
+</footer>
+</body>
+</html>
